@@ -10,7 +10,7 @@ void main() {
 }
 
 String TemperaturaAtual() {
-  sleep(const Duration(seconds: 3));
+  sleep(const Duration(seconds: 3)); // esse comando boqueaia o event loop travando minha apicação, não deixando outro processo ser realizado. 
   return '30';
 }
 

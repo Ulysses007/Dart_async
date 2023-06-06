@@ -1,5 +1,16 @@
 import 'dart:async';
 
+/*
+Evidenciando listas de eventos. 
+
+Prioridade MIcrotask
+
+Depois lista de eventos normal. 
+
+O proprio dart faz esse controe.
+*/
+
+
 void main() {
   print('inicio main');
 
