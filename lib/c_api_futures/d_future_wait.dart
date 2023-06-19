@@ -27,7 +27,7 @@ Future.wait([f1, f2, f3, f4, f5 ]).then((value) {
 print(DateTime.now().toIso8601String());
 print(value);}).catchError((error){
 print(error);
-});
+}); // tambem é possivel tratar o erro com uma exeção como já conhecemos
 
 
  print('Fim'); 
